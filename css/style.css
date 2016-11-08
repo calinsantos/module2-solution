@@ -1,0 +1,51 @@
+ 
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  border: 2px solid black;
+  background-color: #BABABA;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 13px:
+  width: 150%; 
+  padding: 20px;
+  font-family: Helvetica;
+  color: black;
+}
+
+#b1 {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  border: 1px solid black; 
+  background-color: #A52A2A;
+  text-align: center;
+}
+
+#b2 {
+  position: absolute;
+  float right;
+  width: 75px;
+  height: 25px;
+  border: 1px solid black;
+  background-color: #DEB887;
+  text-align: center;
+}
+
+#b3{
+  position: absolute;
+  float right;
+  width: 75px;
+  height: 25px;
+  border: 1px solid black;
+  background-color: #5F9EA0;
+  text-align: center;
+}
