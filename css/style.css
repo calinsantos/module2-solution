@@ -1,51 +1,82 @@
- 
-/********** Base styles **********/
+/* Base Styles*/
 * {
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+  align-content: center;
 }
 
 h1 {
-  margin-bottom: 30px;
   text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.75em;
 }
 
-p {
+.menu-item {
+  position: relative;
+  background-color: #a8a5a6;
   border: 2px solid black;
-  background-color: #BABABA;
-  margin-left: 13px;
-  margin-right: 13px;
-  margin-bottom: 13px:
-  width: 150%; 
-  padding: 20px;
-  font-family: Helvetica;
-  color: black;
+  padding-top: 45px;
+  margin: 15px 15px 0px 15px;
+  float: left;
 }
 
-#b1 {
+.title {
+  width: 150px;
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0px 0px 10px 0px;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  font-size: 1.25em;
   position: absolute;
-  width: 75px;
-  height: 25px;
-  border: 1px solid black; 
+}
+
+.content {
+  text-align: left;
+  padding: 10px 10px 0px 10px ;
+  margin: 10px 0px 10px 0px;
+  text-transform: lowercase;
+}
+
+#vegan {
   background-color: #A52A2A;
-  text-align: center;
 }
 
-#b2 {
-  position: absolute;
-  float right;
-  width: 75px;
-  height: 25px;
-  border: 1px solid black;
+#kosher {
   background-color: #DEB887;
-  text-align: center;
+  color: white;
+}
+#fast-food {
+  background-color: #5F9EA0;
 }
 
-#b3{
-  position: absolute;
-  float right;
-  width: 75px;
-  height: 25px;
-  border: 1px solid black;
-  background-color: #5F9EA0;
-  text-align: center;
+/* Large devices */
+@media (min-width: 992px) {
+  .menu-item {
+    width: 30%;
+  }
 }
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-item {
+    width: 46%;
+  }
+  #section3 {
+   width: 95.4%;
+   clear: both;
+  }
+}
+
+/* Small devices */
+@media (max-width: 767px) {
+  .menu-item {
+   clear: both;
+  }
