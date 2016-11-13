@@ -1,82 +1,47 @@
-/* Base Styles*/
-* {
-  box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 body {
-  margin: 0px;
-  align-content: center;
+	margin: 0px;
+	padding: 0px;
+	align-content: center;
 }
 
 h1 {
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 1.75em;
+	text-align: center;
+	font-size: 175%;
 }
 
-.menu-item {
-  position: relative;
-  background-color: #a8a5a6;
-  border: 2px solid black;
-  padding-top: 45px;
-  margin: 15px 15px 0px 15px;
-  float: left;
+div {
+	background-color: #BABABA;
+	border: 1px solid black;
+   	margin: 20px;
+	position: relative;
 }
 
-.title {
-  width: 150px;
-  border: 2px solid black;
-  font-weight: bold;
-  padding: 10px;
-  margin: 0px 0px 10px 0px;
-  top: 0px;
-  right: 0px;
-  text-align: center;
-  font-size: 1.25em;
-  position: absolute;
-}
-
-.content {
-  text-align: left;
-  padding: 10px 10px 0px 10px ;
-  margin: 10px 0px 10px 0px;
-  text-transform: lowercase;
+p {
+	top: 0;
+	right: 0;
+	width: 100px;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 10px;
+	font-size: 125%;
+	font-weight: bold;
+	text-align: center;
+	float: right;
 }
 
 #vegan {
-  background-color: #A52A2A;
+	background-color: #A52A2A;
+	
 }
-
 #kosher {
-  background-color: #DEB887;
-  color: white;
+	background-color: #DEB887;
+	color: white;
 }
 #fast-food {
-  background-color: #5F9EA0;
+	background-color: #5F9EA0;
 }
-
-/* Large devices */
-@media (min-width: 992px) {
-  .menu-item {
-    width: 30%;
-  }
+section {
+	clear: right;
+	margin: 0px;
+	padding: 15px;
 }
-
-/* Medium devices */
-@media (min-width: 768px) and (max-width: 991px) {
-  .menu-item {
-    width: 46%;
-  }
-  #section3 {
-   width: 95.4%;
-   clear: both;
-  }
-}
-
-/* Small devices */
-@media (max-width: 767px) {
-  .menu-item {
-   clear: both;
-  }
