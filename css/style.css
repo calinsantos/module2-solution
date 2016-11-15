@@ -1,7 +1,16 @@
+/*************** Base Styles *************/
+
+* {
+	font-family: Helvetica, cursive, sans-serif;
+ }
+
 body {
-	margin: 0px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	margin-left: 0;
+	margin-right: 0;
 	padding: 0px;
-	align-content: center;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -12,14 +21,13 @@ h1 {
 div {
 	background-color: #BABABA;
 	border: 1px solid black;
-   	margin: 20px;
-	position: relative;
+   	margin: 10px;
 }
 
 p {
 	top: 0;
 	right: 0;
-	width: 100px;
+	width: 110px;
 	border: 1px solid black;
 	margin: 0px;
 	padding: 10px;
@@ -29,19 +37,22 @@ p {
 	float: right;
 }
 
-#vegan {
+#left {
 	background-color: #A52A2A;
-	
 }
-#kosher {
+
+#center {
 	background-color: #DEB887;
 	color: white;
 }
-#fast-food {
+
+#right {
 	background-color: #5F9EA0;
 }
+
 section {
 	clear: right;
+	text-align: left;
 	margin: 0px;
 	padding: 15px;
 }

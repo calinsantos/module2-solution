@@ -6,17 +6,11 @@
 <title>Module2-solution</title>
 <link rel="stylesheet" href="css\style.css">
 <style>
-
-/*************** Base Styles *************/
-* {
-	font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-
-
 /* Simple Responsive Framework. */
+
 .row {
   width: 100%;
+  float: left;
 }
 
 /********** Large devices only **********/
@@ -66,6 +60,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
   float: left;
+  /* clear: right;*/
   }
   .col-md-1 {
     width: 8.33%;
@@ -105,25 +100,24 @@
   }
 }
 
-
 </style>
 </head>
 <body>
 
 <h1>Our menu</h1>
 
-<div class="row col-lg-4 col-md-6">
-	<p id="vegan">Vegan</p>
-	<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</section>
-</div>
+<div class="row col-lg-4 col-md-6"> 
+  <p id="left">Left</p>
+  <section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</secion>
+  </div>
 
 <div class="row col-lg-4 col-md-6">
-	<p id="kosher">Kosher</p>
+	<p id="center">Center</p>
 	<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</section>
-</div>
+  </div>
 
 <div class="row col-lg-4 col-md-12">
-	<p id="fast-food">Fast Food</p>
+	<p id="right">Right</p>
 	<section>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</section>
 </div>
 
